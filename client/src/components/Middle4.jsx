@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Middle4() {
   return (
     <div className="flex flex-col sm:flex-row items-start justify-center gap-5 mx-5 sm:mx-10 mt-5">

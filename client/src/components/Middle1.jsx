@@ -1,6 +1,3 @@
-import { Button } from "flowbite-react";
-import { Link } from "react-router-dom";
-
 export default function Middle1() {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32 flex border border-teal-500 p-3 justify-center items-center rounded-tl-3xl rounded-br-3xl flex-col sm:flex-row text-center">
