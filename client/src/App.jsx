@@ -8,6 +8,8 @@ import Middle from "./components/Middle";
 import Middle1 from "./components/Middle1";
 import Middle2 from "./components/Middle2";
 import Middle3 from "./components/Middle3";
+import Middle4 from "./components/Middle4";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -23,6 +25,8 @@ export default function App() {
       <Middle1 />
       <Middle2 />
       <Middle3 />
+      <Middle4 />
+      <Footer />
     </BrowserRouter>
   );
 }
