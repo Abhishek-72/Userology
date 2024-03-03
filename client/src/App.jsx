@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Platform from "./pages/Platform";
 import Resources from "./pages/Resources";
 import Header from "./components/Header";
+import Middle from "./components/Middle";
+import Middle1 from "./components/Middle1";
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
         <Route path="/platform" element={<Platform />} />
         <Route path="/resources" element={<Resources />} />
       </Routes>
+      <Middle />
+      <Middle1 />
     </BrowserRouter>
   );
 }
